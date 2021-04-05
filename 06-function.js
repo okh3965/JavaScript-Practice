@@ -11,9 +11,12 @@ const asum = function(a,b) {
     return a + b;
 }
 
+console.log(typeof asum, asum(10, 20);
+
+// 익명 함수의 활용 1. 즉시 실행 함수 -> 주로 페이지의 초기화를 할때 유용
 let initText;
 (function(number) {
-    let textList = ["홀수", "짝수"];
+    let textList = ["홀수", "짝수"];    // 함수 내부에서만 사용하고 버릴 임시 데이터
     if (number % 2 == 0) {
         initText = textList[1];
     } else {
