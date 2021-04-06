@@ -11,7 +11,7 @@ const asum = function(a,b) {
     return a + b;
 }
 
-console.log(typeof asum, asum(10, 20);
+console.log(typeof asum, asum(10, 20));
 
 // 익명 함수의 활용 1. 즉시 실행 함수 -> 주로 페이지의 초기화를 할때 유용
 let initText;
